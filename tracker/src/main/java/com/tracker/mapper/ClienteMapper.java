@@ -18,6 +18,7 @@ public class ClienteMapper {
 
 		ClienteEntity clienteEntity = new ClienteEntity();
 
+		clienteEntity.setId(clienteDTO.getId());
 		clienteEntity.setCodiceFiscale(clienteDTO.getCodiceFiscale());
 		clienteEntity.setNome(clienteDTO.getNome());
 		clienteEntity.setTelefono(clienteDTO.getTelefono());
